@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df0287fa-7596-4629-973e-96a1c68171b0" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitlabMajeraCodeReviewSettings">
+    <option name="popularEmojiShortcuts">
+      <list />
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2oTiLMdX8X6jGz58wiJnBIYdvoM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "BashSupport Pro.console.executor": "Run",
+    "Docker.docker-compose.yaml.console: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.crm.auth: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.crm.country: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.crm.employee: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.crm.offer: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.crm.region: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.crm.role: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.php-fpm: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.postgres: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml.web: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
+    "PHP Script.boot.php.executor": "Run",
+    "PHP Script.test.php.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/alexey/Документы/Projects/api.lidifon.com",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "redis"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/crm/App/Resources/Api/V1/Crm/Offer" />
+      <recent name="$PROJECT_DIR$/config/services" />
+      <recent name="$PROJECT_DIR$/services/api/v1/crm" />
+      <recent name="$PROJECT_DIR$/src/crm/App/Resources/Api/V1/Crm" />
+      <recent name="$PROJECT_DIR$/services/api/v1/crm/bank" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/ws/server" />
+      <recent name="$PROJECT_DIR$/docker/php" />
+      <recent name="$PROJECT_DIR$/src/crm/resources" />
+      <recent name="$PROJECT_DIR$/services/api/v1/crm/country" />
+      <recent name="$PROJECT_DIR$/src/crm" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.console: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="console" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.crm.employee: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="crm.employee" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.web: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="web" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.crm.employee: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.web: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.console: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.postgres: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PS-243.21565.202" />
+        <option value="bundled-php-predefined-a98d8de5180a-5fbe0c30323e-com.jetbrains.php.sharedIndexes-PS-243.21565.202" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df0287fa-7596-4629-973e-96a1c68171b0" name="Changes" comment="" />
+      <created>1730899916630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730899916630</updated>
+      <workItem from="1730899917654" duration="5065000" />
+      <workItem from="1730905411451" duration="5024000" />
+      <workItem from="1730920967570" duration="1962000" />
+      <workItem from="1730953179703" duration="7439000" />
+      <workItem from="1730961985909" duration="2779000" />
+      <workItem from="1730967617382" duration="13102000" />
+      <workItem from="1730985103790" duration="1123000" />
+      <workItem from="1731038438545" duration="9253000" />
+      <workItem from="1731050621590" duration="968000" />
+      <workItem from="1731051797198" duration="5199000" />
+      <workItem from="1731057823281" duration="8248000" />
+      <workItem from="1731134940123" duration="311000" />
+      <workItem from="1731135409905" duration="2421000" />
+      <workItem from="1731175832608" duration="1796000" />
+      <workItem from="1731229233269" duration="11209000" />
+      <workItem from="1731300354617" duration="17118000" />
+      <workItem from="1731319266786" duration="2100000" />
+      <workItem from="1731322870429" duration="147000" />
+      <workItem from="1731324713243" duration="3200000" />
+      <workItem from="1731327940715" duration="4202000" />
+      <workItem from="1731332459053" duration="9147000" />
+      <workItem from="1731341893802" duration="3897000" />
+      <workItem from="1731386329575" duration="3548000" />
+      <workItem from="1731390239776" duration="10000" />
+      <workItem from="1731390267993" duration="1812000" />
+      <workItem from="1731398302195" duration="5774000" />
+      <workItem from="1731404257881" duration="1829000" />
+      <workItem from="1731406468354" duration="11470000" />
+      <workItem from="1731425257342" duration="2764000" />
+      <workItem from="1731432373943" duration="435000" />
+      <workItem from="1731471364245" duration="7859000" />
+      <workItem from="1731480627255" duration="2221000" />
+      <workItem from="1731482902172" duration="6581000" />
+      <workItem from="1731500106088" duration="56000" />
+      <workItem from="1731501180330" duration="3197000" />
+      <workItem from="1731504571561" duration="2834000" />
+      <workItem from="1731507424260" duration="20000" />
+      <workItem from="1731507475276" duration="20297000" />
+      <workItem from="1731561998106" duration="5824000" />
+      <workItem from="1731568674338" duration="489000" />
+      <workItem from="1731569184806" duration="12992000" />
+      <workItem from="1731582400683" duration="18264000" />
+      <workItem from="1731601673966" duration="4029000" />
+      <workItem from="1731607494223" duration="2567000" />
+      <workItem from="1731616066823" duration="3711000" />
+      <workItem from="1731619799162" duration="20000" />
+      <workItem from="1731619843069" duration="1543000" />
+      <workItem from="1731621856521" duration="4826000" />
+      <workItem from="1731626709319" duration="206000" />
+      <workItem from="1731738767688" duration="193000" />
+      <workItem from="1731789379895" duration="5431000" />
+      <workItem from="1731831753557" duration="2780000" />
+      <workItem from="1731834824977" duration="2601000" />
+      <workItem from="1731902696971" duration="5746000" />
+      <workItem from="1731919499661" duration="332000" />
+      <workItem from="1731919851284" duration="3757000" />
+      <workItem from="1732100050265" duration="388000" />
+      <workItem from="1732100897855" duration="602000" />
+      <workItem from="1732121374135" duration="380000" />
+      <workItem from="1732208446046" duration="6303000" />
+      <workItem from="1732258353845" duration="839000" />
+      <workItem from="1732259227298" duration="1585000" />
+      <workItem from="1733117615666" duration="2955000" />
+      <workItem from="1733132877716" duration="4671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="2fb4f5">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="2fb4f5" />
+              <option name="initiateTms" value="1731402762514" />
+              <option name="request" value=" How to fix the following error:&#10;Qualifier can be replaced with an import" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="I'm glad you're reaching out for help! However, I can't assist with code-related tasks until you're signed in and subscribed to Machinet AI.&#10;&#10;Please sign in by clicking on this [sign in](https://plugin.machinet.net/#signin) link. After that, you can subscribe to our service by visiting this [subscribe](https://plugin.machinet.net/#pricing) link.&#10;&#10;Here are the steps to sign in and subscribe:&#10;&#10;1. Press the 'Sign In' button at the left corner of the chat inside the IDE.&#10;2. You will be redirected to the Machinet AI website, where you can enter your email and password.&#10;3. If you don't have an account, click the 'Sign Up' button and fill out the registration form with your email, company, first name, last name, and password.&#10;&#10;For subscribing:&#10;1. Please choose a Pro or Max subscription at our website [here](https://plugin.machinet.net/#pricing).&#10;2. You can also opt for a Pro Trial subscription to test Machinet AI for 10 days.&#10;&#10;Once you're signed in and subscribed, I'll be happy to help you with your error!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1731402775350" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/crm/App/Filters/AbstractFilter.php" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="3dac29">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="3dac29" />
+              <option name="initiateTms" value="1731273743325" />
+              <option name="request" value=" How to fix the following error:&#10;[EA] '\App\SqlBuilder\Traits\BindParamNameTrait' is already used in '\App\SqlBuilder\Traits\SetConditionTrait'." />
+              <option name="response" value="" />
+              <option name="responseDescription" value="I'm here to help you with onboarding to Machinet AI! To assist you further, please sign in by clicking on this [sign in](https://plugin.machinet.net/#signin) link. &#10;&#10;Once you're signed in, I also recommend subscribing to our service to access all the features. You can do that by visiting this [subscribe](https://plugin.machinet.net/#pricing) link.&#10;&#10;Here are the steps to sign in and subscribe:&#10;&#10;1. Press the 'Sign In' button at the left corner of the chat inside the IDE.&#10;2. You will be redirected to the Machinet AI website, where you can enter your email and password.&#10;3. If you don't have an account, click the 'Sign Up' button and fill out the registration form with your email, company, first name, last name, and password.&#10;&#10;For subscribing:&#10;1. Please choose a Pro or Max subscription at our website [here](https://plugin.machinet.net/#pricing).&#10;2. You can also opt for a Pro Trial subscription to test Machinet AI for 10 days.&#10;&#10;Once you're signed in and subscribed, I'll be able to assist you with your code-related questions!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1731273747516" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/crm/App/SqlBuilder/Select.php" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="707485">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="707485" />
+              <option name="initiateTms" value="1731509709765" />
+              <option name="request" value=" How to fix the following error:&#10;Call to 'private Request::__construct()' from invalid context" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="I appreciate your question, but I can't assist with code-related issues until you're signed in and subscribed to Machinet AI.&#10;&#10;Please sign in by clicking on this [sign in](https://plugin.machinet.net/#signin) link. After signing in, you can subscribe to our service by visiting this [subscribe](https://plugin.machinet.net/#pricing) link.&#10;&#10;Here are the steps to sign in and subscribe:&#10;&#10;1. Press the 'Sign In' button at the left corner of the chat inside the IDE.&#10;2. You will be redirected to the Machinet AI website, where you can enter your email and password.&#10;3. If you don't have an account, click the 'Sign Up' button and fill out the registration form with your email, company, first name, last name, and password.&#10;&#10;For subscribing:&#10;1. Please choose a Pro or Max subscription at our website [here](https://plugin.machinet.net/#pricing).&#10;2. You can also opt for a Pro Trial subscription to test Machinet AI for 10 days.&#10;&#10;Once you're signed in and subscribed, I'll be more than happy to help you with your error!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1731509724835" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/crm/App/Services/AbstractService.php" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="greeting">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="greeting" />
+              <option name="initiateTms" value="1731273739967" />
+              <option name="request" value="" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="&#10;Hello, I am Machinet AI - context aware chat, which can help you with your daily programming routine. How can I help?" />
+              <option name="responseTms" value="1731273741733" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

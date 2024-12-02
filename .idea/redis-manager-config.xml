@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistentConfig">
+    <option name="id" value="46" />
+    <option name="lastRedisServerNode">
+      <RedisServerNode>
+        <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+        <option name="comment" value="" />
+        <option name="host" value="localhost" />
+        <option name="id" value="45" />
+        <option name="name" value="manager.place micro-service" />
+        <option name="passphrase" value="" />
+        <option name="port" value="9900" />
+        <option name="sshAuthType" value="PASSWORD" />
+        <option name="sshPassword" value="" />
+        <option name="sshPort" value="" />
+        <option name="sshRedisAuth" value="" />
+        <option name="sshRedisHost" value="" />
+        <option name="sshRedisPort" value="" />
+        <option name="sshUsername" value="" />
+        <option name="url" value="" />
+        <option name="username" value="" />
+      </RedisServerNode>
+    </option>
+    <option name="configList">
+      <list>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="3" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="5" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="7" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="9" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="11" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="13" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="15" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="17" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="19" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="21" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="23" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="25" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="27" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="29" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="31" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="33" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="35" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="37" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="39" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="41" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="43" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+        <RedisServerNode>
+          <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+          <option name="comment" value="" />
+          <option name="host" value="localhost" />
+          <option name="id" value="45" />
+          <option name="name" value="manager.place micro-service" />
+          <option name="passphrase" value="" />
+          <option name="port" value="9900" />
+          <option name="sshAuthType" value="PASSWORD" />
+          <option name="sshPassword" value="" />
+          <option name="sshPort" value="" />
+          <option name="sshRedisAuth" value="" />
+          <option name="sshRedisHost" value="" />
+          <option name="sshRedisPort" value="" />
+          <option name="sshUsername" value="" />
+          <option name="url" value="" />
+          <option name="username" value="" />
+        </RedisServerNode>
+      </list>
+    </option>
+    <option name="langCode" value="en" />
+    <option name="consoleFilePath" value="/tmp/redis/f2ff202f-c198-4c88-b13f-ac2f26210776/console.redis" />
+    <option name="configs">
+      <map>
+        <entry key="3">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="3" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="5" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="7">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="7" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="9">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="9" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="11">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="11" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="13">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="13" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="15">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="15" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="17">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="17" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="19">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="19" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="21">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="21" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="23">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="23" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="25">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="25" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="27">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="27" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="29">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="29" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="31">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="31" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="33">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="33" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="35">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="35" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="37">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="37" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="39">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="39" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="41">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="41" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="43">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="43" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+        <entry key="45">
+          <value>
+            <RedisServerNode>
+              <option name="auth" value="eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81" />
+              <option name="comment" value="" />
+              <option name="host" value="localhost" />
+              <option name="id" value="45" />
+              <option name="name" value="manager.place micro-service" />
+              <option name="passphrase" value="" />
+              <option name="port" value="9900" />
+              <option name="sshAuthType" value="PASSWORD" />
+              <option name="sshPassword" value="" />
+              <option name="sshPort" value="" />
+              <option name="sshRedisAuth" value="" />
+              <option name="sshRedisHost" value="" />
+              <option name="sshRedisPort" value="" />
+              <option name="sshUsername" value="" />
+              <option name="url" value="" />
+              <option name="username" value="" />
+            </RedisServerNode>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
