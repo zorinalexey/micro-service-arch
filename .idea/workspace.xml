@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df0287fa-7596-4629-973e-96a1c68171b0" name="Changes" comment="" />
+    <list default="true" id="df0287fa-7596-4629-973e-96a1c68171b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/services/ws/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services/web.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/services/web.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/favicon.ico" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,50 +45,51 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "BashSupport Pro.console.executor": "Run",
-    "Docker.docker-compose.yaml.console: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.crm.auth: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.crm.country: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.crm.employee: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.crm.offer: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.crm.region: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.crm.role: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.php-fpm: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.postgres: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml.web: Compose Deployment.executor": "Run",
-    "Docker.docker-compose.yaml: Compose Deployment.executor": "Run",
-    "PHP Script.boot.php.executor": "Run",
-    "PHP Script.test.php.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.laravel-idea.search-composer-json": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/alexey/Документы/Projects/api.lidifon.com",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;BashSupport Pro.console.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.console: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.crm.auth: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.crm.country: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.crm.employee: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.crm.offer: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.crm.region: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.crm.role: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.php-fpm: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.web: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.websocket-server: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.boot.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.test.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.laravel-idea.search-composer-json&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexey/Manager.Place Micro-Service ARCH&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql",
-      "redis"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;redis&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/services/ws" />
       <recent name="$PROJECT_DIR$/src/crm/App/Resources/Api/V1/Crm/Offer" />
       <recent name="$PROJECT_DIR$/config/services" />
       <recent name="$PROJECT_DIR$/services/api/v1/crm" />
       <recent name="$PROJECT_DIR$/src/crm/App/Resources/Api/V1/Crm" />
-      <recent name="$PROJECT_DIR$/services/api/v1/crm/bank" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/ws/server" />
@@ -91,7 +99,7 @@
       <recent name="$PROJECT_DIR$/src/crm" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.yaml.console: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -138,19 +146,6 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker-compose.yaml.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="postgres" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="docker-compose.yaml.web: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -164,13 +159,26 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yaml.websocket-server: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="websocket-server" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yaml.console: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yaml.websocket-server: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yaml.crm.employee: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yaml.web: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yaml.console: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yaml.postgres: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +261,10 @@
       <workItem from="1732258353845" duration="839000" />
       <workItem from="1732259227298" duration="1585000" />
       <workItem from="1733117615666" duration="2955000" />
-      <workItem from="1733132877716" duration="4671000" />
+      <workItem from="1733132877716" duration="5984000" />
+      <workItem from="1733148324459" duration="996000" />
+      <workItem from="1733168735007" duration="13000" />
+      <workItem from="1733170946686" duration="1214000" />
     </task>
     <servers />
   </component>

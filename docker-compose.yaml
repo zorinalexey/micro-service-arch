@@ -12,7 +12,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - php
+      - php-fpm
       - console
       - crm.auth
       - crm.bank
@@ -25,7 +25,7 @@ services:
       - crm.developer
       - crm.marketplace
       - crm.offer
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.2
@@ -35,7 +35,7 @@ services:
     container_name: "employee.manager.place"
     working_dir: /var/www/employee
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/employee:/var/www/employee
       - ./config/services/api.v1.crm.employee.conf:/etc/nginx/nginx.conf
@@ -43,7 +43,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.3
@@ -53,7 +53,7 @@ services:
     container_name: "role.manager.place"
     working_dir: /var/www/role
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/role:/var/www/role
       - ./config/services/api.v1.crm.role.conf:/etc/nginx/nginx.conf
@@ -61,7 +61,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.4
@@ -71,7 +71,7 @@ services:
     working_dir: /var/www/auth
     container_name: "auth.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/auth:/var/www/auth
       - ./config/services/api.v1.crm.auth.conf:/etc/nginx/nginx.conf
@@ -79,7 +79,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.5
@@ -89,7 +89,7 @@ services:
     working_dir: /var/www/country
     container_name: "country.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/country:/var/www/country
       - ./config/services/api.v1.crm.country.conf:/etc/nginx/nginx.conf
@@ -97,7 +97,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.6
@@ -107,7 +107,7 @@ services:
     working_dir: /var/www/region
     container_name: "region.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/region:/var/www/region
       - ./config/services/api.v1.crm.region.conf:/etc/nginx/nginx.conf
@@ -115,7 +115,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.7
@@ -125,7 +125,7 @@ services:
     working_dir: /var/www/city
     container_name: "city.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/city:/var/www/city
       - ./config/services/api.v1.crm.city.conf:/etc/nginx/nginx.conf
@@ -133,7 +133,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.8
@@ -143,7 +143,7 @@ services:
     working_dir: /var/www/marketplace
     container_name: "marketplace.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/marketplace:/var/www/marketplace
       - ./config/services/api.v1.crm.marketplace.conf:/etc/nginx/nginx.conf
@@ -159,7 +159,7 @@ services:
     working_dir: /var/www/developer
     container_name: "developer.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/developer:/var/www/developer
       - ./config/services/api.v1.crm.developer.conf:/etc/nginx/nginx.conf
@@ -167,7 +167,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.10
@@ -177,7 +177,7 @@ services:
     working_dir: /var/www/bank
     container_name: "bank.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/bank:/var/www/bank
       - ./config/services/api.v1.crm.bank.conf:/etc/nginx/nginx.conf
@@ -185,7 +185,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.11
@@ -195,7 +195,7 @@ services:
     working_dir: /var/www/black_list
     container_name: "black_list.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/black_list:/var/www/black_list
       - ./config/services/api.v1.crm.black_list.conf:/etc/nginx/nginx.conf
@@ -203,7 +203,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.12
@@ -213,7 +213,7 @@ services:
     working_dir: /var/www/offer
     container_name: "offer.manager.place"
     links:
-      - php
+      - php-fpm
     volumes:
       - ./services/api/v1/crm/offer:/var/www/offer
       - ./config/services/api.v1.crm.offer.conf:/etc/nginx/nginx.conf
@@ -221,7 +221,7 @@ services:
     environment:
       TZ: ${TIME_ZONE}
     depends_on:
-      - ws
+      - websocket-server
     networks:
       net.manager.place:
         ipv4_address: 172.25.0.13
@@ -237,46 +237,11 @@ services:
     volumes:
       - "./data/db/redis:/data:rw"
     restart: always
+    networks:
+      net.manager.place:
+        ipv4_address: ${REDIS_HOST_IP}
 
-  redis1:
-    image: redis:6.2-alpine
-    container_name: "redis1.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-    ports:
-      - "9900:${REDIS_PORT}"
-    command: "redis-server --save 20 1 --loglevel warning --requirepass ${REDIS_PASSWORD}"
-    volumes:
-      - "./data/db/redis:/data:rw"
-    restart: always
-
-
-  redis2:
-    image: redis:6.2-alpine
-    container_name: "redis2.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-    ports:
-      - "9900:${REDIS_PORT}"
-    command: "redis-server --save 20 1 --loglevel warning --requirepass ${REDIS_PASSWORD}"
-    volumes:
-      - "./data/db/redis:/data:rw"
-    restart: always
-
-
-  redis3:
-    image: redis:6.2-alpine
-    container_name: "redis3.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-    ports:
-      - "9900:${REDIS_PORT}"
-    command: "redis-server --save 20 1 --loglevel warning --requirepass ${REDIS_PASSWORD}"
-    volumes:
-      - "./data/db/redis:/data:rw"
-    restart: always
-
-  db:
+  postgres:
     image: postgres:16
     container_name: "db.manager.place"
     environment:
@@ -287,73 +252,19 @@ services:
       PGDATA: "/var/lib/postgresql/data/pgdata"
       DB_PASSWORD: ${DB_PASSWORD}
     volumes:
-      - ./data/db/postgresql:/var/lib/postgresql/data/pgdata:rw
-      - ./logs/services/postgres:/var/log/postgresql:rw
-      - ./data/db/dump/postgresql:/dump:rw
-      - ./scripts/postgres/create_dump.sh:/usr/bin/create_dump
-      - ./scripts/postgres/load_dump.sh:/usr/bin/load_dump
+        - ./data/db/postgresql:/var/lib/postgresql/data/pgdata:rw
+        - ./logs/services/postgres:/var/log/postgresql:rw
+        - ./data/db/dump/postgresql:/dump:rw
+        - ./scripts/postgres/create_dump.sh:/usr/bin/create_dump
+        - ./scripts/postgres/load_dump.sh:/usr/bin/load_dump
     ports:
-      - "9901:${DB_PORT}"
+        - "9901:${DB_PORT}"
     restart: always
     networks:
       net.manager.place:
         ipv4_address: ${DB_HOST_IP}
 
-  db1:
-    image: postgres:16
-    container_name: "db1.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-      POSTGRES_DB: ${DB_NAME}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-      PGDATA: "/var/lib/postgresql/data/pgdata"
-      DB_PASSWORD: ${DB_PASSWORD}
-    volumes:
-      - ./data/db/postgresql:/var/lib/postgresql/data/pgdata:rw
-      - ./logs/services/postgres:/var/log/postgresql:rw
-      - ./data/db/dump/postgresql:/dump:rw
-      - ./scripts/postgres/create_dump.sh:/usr/bin/create_dump
-      - ./scripts/postgres/load_dump.sh:/usr/bin/load_dump
-    restart: always
-
-  db2:
-    image: postgres:16
-    container_name: "db2.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-      POSTGRES_DB: ${DB_NAME}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-      PGDATA: "/var/lib/postgresql/data/pgdata"
-      DB_PASSWORD: ${DB_PASSWORD}
-    volumes:
-      - ./data/db/postgresql:/var/lib/postgresql/data/pgdata:rw
-      - ./logs/services/postgres:/var/log/postgresql:rw
-      - ./data/db/dump/postgresql:/dump:rw
-      - ./scripts/postgres/create_dump.sh:/usr/bin/create_dump
-      - ./scripts/postgres/load_dump.sh:/usr/bin/load_dump
-    restart: always
-
-  db3:
-    image: postgres:16
-    container_name: "db3.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-      POSTGRES_DB: ${DB_NAME}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-      PGDATA: "/var/lib/postgresql/data/pgdata"
-      DB_PASSWORD: ${DB_PASSWORD}
-    volumes:
-      - ./data/db/postgresql:/var/lib/postgresql/data/pgdata:rw
-      - ./logs/services/postgres:/var/log/postgresql:rw
-      - ./data/db/dump/postgresql:/dump:rw
-      - ./scripts/postgres/create_dump.sh:/usr/bin/create_dump
-      - ./scripts/postgres/load_dump.sh:/usr/bin/load_dump
-    restart: always
-
-  php:
+  php-fpm:
     build:
       context: docker/php
     container_name: "php-fpm.manager.place"
@@ -382,124 +293,23 @@ services:
       DB_PASSWORD: ${DB_PASSWORD}
       DB_PORT: ${DB_PORT}
       DB_HOST: ${DB_HOST_IP}
+      # REDIS
+      REDIS_PASSWORD: ${REDIS_PASSWORD}
+      REDIS_PORT: ${REDIS_PORT}
+      REDIS_HOST: ${REDIS_HOST_IP}
+      # WEBSOCKET
+      WEBSOCKET_LOCAL_HOST: ${WS_LOCAL_HOST}
+      WEBSOCKET_LOCAL_PORT: ${WS_LOCAL_PORT}
     links:
       - redis
-      - db
+      - postgres
     depends_on:
-      - ws
+      - websocket-server
       - redis
-      - db
-
-  php1:
-    build:
-      context: docker/php
-    container_name: "php-fpm1.manager.place"
-    volumes:
-      - ./src/crm:/var/www/crm/:rw
-      - ./services/console:/var/www/console:rw
-      - ./services/api/v1/crm/bank:/var/www/bank:rw
-      - ./services/api/v1/crm/black_list:/var/www/black_list:rw
-      - ./services/api/v1/crm/employee:/var/www/employee:rw
-      - ./services/api/v1/crm/developer:/var/www/developer:rw
-      - ./services/api/v1/crm/marketplace:/var/www/marketplace:rw
-      - ./services/api/v1/crm/country:/var/www/country:rw
-      - ./services/api/v1/crm/region:/var/www/region:rw
-      - ./services/api/v1/crm/city:/var/www/city:rw
-      - ./services/api/v1/crm/auth:/var/www/auth:rw
-      - ./services/api/v1/crm/role:/var/www/role:rw
-      - ./services/api/v1/crm/offer:/var/www/offer:rw
-    restart: always
-    environment:
-      # PHP
-      TZ: ${TIME_ZONE}
-      TIME_ZONE: ${TIME_ZONE}
-      # DATABASE
-      DB_NAME: ${DB_NAME}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_PORT: ${DB_PORT}
-      DB_HOST: ${DB_HOST_IP}
-    links:
-      - redis
-      - db
-    depends_on:
-      - ws
-      - redis
-      - db
-
-  php2:
-    build:
-      context: docker/php
-    container_name: "php-fpm2.manager.place"
-    volumes:
-      - ./src/crm:/var/www/crm/:rw
-      - ./services/console:/var/www/console:rw
-      - ./services/api/v1/crm/bank:/var/www/bank:rw
-      - ./services/api/v1/crm/black_list:/var/www/black_list:rw
-      - ./services/api/v1/crm/employee:/var/www/employee:rw
-      - ./services/api/v1/crm/developer:/var/www/developer:rw
-      - ./services/api/v1/crm/marketplace:/var/www/marketplace:rw
-      - ./services/api/v1/crm/country:/var/www/country:rw
-      - ./services/api/v1/crm/region:/var/www/region:rw
-      - ./services/api/v1/crm/city:/var/www/city:rw
-      - ./services/api/v1/crm/auth:/var/www/auth:rw
-      - ./services/api/v1/crm/role:/var/www/role:rw
-      - ./services/api/v1/crm/offer:/var/www/offer:rw
-    restart: always
-    environment:
-      # PHP
-      TZ: ${TIME_ZONE}
-      TIME_ZONE: ${TIME_ZONE}
-      # DATABASE
-      DB_NAME: ${DB_NAME}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_PORT: ${DB_PORT}
-      DB_HOST: ${DB_HOST_IP}
-    links:
-      - redis
-      - db
-    depends_on:
-      - ws
-      - redis
-      - db
-
-  php3:
-    build:
-      context: docker/php
-    container_name: "php-fpm3.manager.place"
-    volumes:
-      - ./src/crm:/var/www/crm/:rw
-      - ./services/console:/var/www/console:rw
-      - ./services/api/v1/crm/bank:/var/www/bank:rw
-      - ./services/api/v1/crm/black_list:/var/www/black_list:rw
-      - ./services/api/v1/crm/employee:/var/www/employee:rw
-      - ./services/api/v1/crm/developer:/var/www/developer:rw
-      - ./services/api/v1/crm/marketplace:/var/www/marketplace:rw
-      - ./services/api/v1/crm/country:/var/www/country:rw
-      - ./services/api/v1/crm/region:/var/www/region:rw
-      - ./services/api/v1/crm/city:/var/www/city:rw
-      - ./services/api/v1/crm/auth:/var/www/auth:rw
-      - ./services/api/v1/crm/role:/var/www/role:rw
-      - ./services/api/v1/crm/offer:/var/www/offer:rw
-    restart: always
-    environment:
-      # PHP
-      TZ: ${TIME_ZONE}
-      TIME_ZONE: ${TIME_ZONE}
-      # DATABASE
-      DB_NAME: ${DB_NAME}
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_PORT: ${DB_PORT}
-      DB_HOST: ${DB_HOST_IP}
-    links:
-      - redis
-      - db
-    depends_on:
-      - ws
-      - redis
-      - db
+      - postgres
+    networks:
+      net.manager.place:
+        ipv4_address: ${PHP_FPM_HOST_IP}
 
   console:
     build:
@@ -511,7 +321,6 @@ services:
       - ./logs/services/console:/var/log:rw
       - ./scripts/postgres/create_dump.sh:/usr/bin/create_dump
       - ./scripts/postgres/load_dump.sh:/usr/bin/load_dump
-      - ./data/db/dump/postgresql:/dump:rw
     working_dir: /var/www/html
     environment:
       # PHP
@@ -533,15 +342,15 @@ services:
     restart: always
     links:
       - redis
-      - db
-      - php
+      - postgres
+      - php-fpm
     depends_on:
       - redis
-      - db
-      - php
-      - ws
+      - postgres
+      - php-fpm
+      - websocket-server
 
-  ws:
+  websocket-server:
     build:
       context: docker/ws
     container_name: "ws.manager.place"
@@ -551,39 +360,9 @@ services:
     restart: always
     volumes:
       - ./services/ws/server.js:/opt/ws/server.js:rw
-
-  ws1:
-    build:
-      context: docker/ws
-    container_name: "ws1.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-    working_dir: /opt/ws
-    restart: always
-    volumes:
-      - ./services/ws/server.js:/opt/ws/server.js:rw
-
-  ws2:
-    build:
-      context: docker/ws
-    container_name: "ws2.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-    working_dir: /opt/ws
-    restart: always
-    volumes:
-      - ./services/ws/server.js:/opt/ws/server.js:rw
-
-  ws3:
-    build:
-      context: docker/ws
-    container_name: "ws3.manager.place"
-    environment:
-      TZ: ${TIME_ZONE}
-    working_dir: /opt/ws
-    restart: always
-    volumes:
-      - ./services/ws/server.js:/opt/ws/server.js:rw
+    networks:
+      net.manager.place:
+        ipv4_address: ${WS_LOCAL_HOST}
 
 networks:
   net.manager.place:
